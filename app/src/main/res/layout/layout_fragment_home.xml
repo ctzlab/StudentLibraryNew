@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_main_home_list"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_marginTop="4dp"
+    android:layout_margin="4dp"
+    android:padding="8dp"
+    android:minHeight="70dp"
+    android:layout_marginBottom="6dp"
+    android:layout_marginRight="4dp"
+    android:background="@drawable/rounded_rect_for_fragment"
+    tools:context="studentlibrary.ctz.com.studentlibrary_new.Activity_fragment_grid">
+
+   <TextView
+        android:id="@+id/tv_main_home_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:layout_marginTop="2dp"
+        android:text="Subject Text\n Click to expand"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:typeface="normal" />
+
+
+</LinearLayout>

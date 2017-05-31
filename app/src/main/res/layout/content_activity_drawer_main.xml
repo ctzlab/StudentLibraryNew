@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_activity_drawer_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#EAEAEA"
+    android:weightSum="10"
+    android:padding="6dp"
+    android:orientation="vertical"
+    tools:context="studentlibrary.ctz.com.studentlibrary_new.Activity_drawer_main"
+    tools:showIn="@layout/app_bar_activity_drawer_main">
+
+    <WebView
+        android:id="@+id/webview_main"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        ></WebView>
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:text="N O T I C E    B O A R D"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:elevation="1dp"
+        android:background="#3E6680"
+        android:layout_marginBottom="4dp"
+        android:layout_height="60dp" />
+
+    <ListView
+        android:id="@+id/listview_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <ProgressBar
+        android:id="@+id/pb_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:visibility="gone"
+        android:theme="@style/Base.Widget.AppCompat.ProgressBar" />
+
+
+</LinearLayout>
+

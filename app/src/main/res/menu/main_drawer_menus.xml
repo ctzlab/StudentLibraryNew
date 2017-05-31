@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fee_pay"
+        android:title="Online Fee Pay"
+        android:icon="@drawable/ic_rupee"
+        />
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:title="Branches"><menu>
+        <item
+            android:id="@+id/first_year"
+            android:icon="@drawable/ic_baby"
+            android:title="First Year" />
+        <item
+            android:id="@+id/civil"
+            android:icon="@drawable/ic_crane"
+            android:title="Civil Engineering" />
+        <item
+            android:id="@+id/computer"
+            android:icon="@drawable/ic_ctech"
+            android:title="Computer Tech." />
+
+        <item
+            android:id="@+id/electrical"
+            android:icon="@drawable/ic_electric"
+            android:title="Electrical Engg." />
+
+        <item
+            android:id="@+id/electronics"
+            android:icon="@drawable/ic_wifi_signal"
+            android:title="Electronics Engg." />
+
+        <item
+            android:id="@+id/electronicandtc"
+            android:icon="@drawable/ic_eandtc"
+            android:title="Electronics and Tc" />
+
+        <item
+            android:id="@+id/information"
+            android:icon="@drawable/ic_infotech"
+            android:title="Information Tech." />
+
+        <item
+            android:id="@+id/mechanical"
+            android:icon="@drawable/ic_mechanical"
+            android:title="Mechanical Engg." />
+
+
+    </menu></item>
+
+</group>
+<group
+    android:checkableBehavior="none"
+    android:id="@+id/third">
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:title="About us" />
+</group>
+
+
+</menu>

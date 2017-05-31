@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="studentlibrary.ctz.com.studentlibrary_new.Activity_firstYear">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#e8e8e8"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:id="@+id/ll_title_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester I"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/title_img1"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sem3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/sub3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Engineering Mathematics I"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Engineering Physics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Communication Skills"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Engineering Mechanics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub3_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Basic Electronics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub3_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="6. Intro. to Computer Programming"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_title_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester II"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/title_img2"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/ll_sem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:id="@+id/sub4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Engineering Mathematics II"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Engineering Chemistry"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Social Science"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Electrical Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub4_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Engineering Graphics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

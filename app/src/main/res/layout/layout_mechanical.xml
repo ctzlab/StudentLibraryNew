@@ -1,0 +1,2409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="studentlibrary.ctz.com.studentlibrary_new.Activity_mechanical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#e8e8e8"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:id="@+id/ll_title_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester III"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/title_img1"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sem3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/sub3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Engineering Mathematics III"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Material Science and Metallurgy"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Mechanics of Materials"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Fluid Mechanics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub3_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Kinematics of Machinery"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub3_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="6. Manufacturing Processes-I"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            //fourth sem
+
+            <LinearLayout
+                android:id="@+id/ll_title_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester IV"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/title_img2"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/sub4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Advanced Mathematical Tech."
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Mechanical Measurement"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Engineering Thermodynamics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Design of Machine Elements"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Hydraulic Machines"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub4_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="6. Manufacturing Processes - II"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            //fifth sem
+
+
+            <LinearLayout
+                android:id="@+id/ll_title_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester V"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+
+                        android:id="@+id/title_img3"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sem5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/sub5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Fundamentals of Management"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Metrology and Quality Control"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Heat Transfer"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub5_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Dynamics of Machinery"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub5_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Applied Thermodynamics - I "
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Open Elective - I"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub5_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Automobile Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub5_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Operations Research Technique"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub5_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3.  Plastic Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            //sixth sem
+
+
+            <LinearLayout
+                android:id="@+id/ll_title_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester VI"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+
+                        android:id="@+id/title_img4"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sem6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/sub6_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Fundamentals of Economics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub6_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Energy Conversion "
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub6_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Computer Aided Design"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub6_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Control Systems Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Open Elective - I"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub6_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Total Quality Management"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Open Elective - II"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub6_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Reliability Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub6_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Power Generation Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            //seventh sem
+
+
+            <LinearLayout
+                android:id="@+id/ll_title_5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester VII"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/title_img5"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sem7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/sub7_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Production Management "
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Design of Mechanical Drives"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Professional Elective - I"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Tool Design"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Material Handling System"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub7_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Computational Fluid Dynamics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Engineering of Plastics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub7_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Project Evaluation and Management"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="6. Advanced Manufacturing Techniques"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Professional Elective - II"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/sub7_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Synthesis Of Mechanism"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Financial and Cost Management "
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Renewable Energy System"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub7_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Artificial Intelligence"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub7_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Maintenance Management"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Professional Elective - III"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/sub7_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Mechatronics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub7_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Computer Integrated Manufacturing"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub7_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3.  I.C. Engines"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub7_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Finite Element Method"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub7_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5.  Refrigeration and Air Conditioning "
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            //eigth sem
+
+
+            <LinearLayout
+                android:id="@+id/ll_title_6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+
+                android:background="@drawable/rounded_rect"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="#FF784F"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_graduate" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="8.5"
+                        android:fontFamily="monospace"
+                        android:padding="2dp"
+                        android:text="Semester VIII"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/title_img6"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:elevation="1dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/ll_sem8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:id="@+id/sub8_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Automation In Production systems"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub8_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Optimisation Techniques"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Professional Elective IV"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:visibility="gone"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub8_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Industrial Fluid power"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub8_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. CNC and Robotics"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub8_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Vehicle Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/sub8_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Management Information Systems"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub8_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Vibrations"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect_gray"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="Professional Elective V"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:visibility="gone"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/sub8_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="1. Stress Analysis"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="2. Design of Experiments and Taguchi methods"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="3. Value Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="4. Lean Sigma"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="5. Product design and Development"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="6. Power Plant Engineering"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="7. Machine Tool Design"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="8. Industrial Safety"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sub8_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/rounded_rect"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="9.7"
+                        android:maxLines="1"
+                        android:text="9. Advance Welding Techniques"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

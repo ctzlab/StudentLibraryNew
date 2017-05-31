@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="studentlibrary.ctz.com.studentlibrary_new.Activity_credit"
+    tools:showIn="@layout/layout_credit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- Sagar Lachure"
+            android:padding="2dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Professor(CT)"
+            android:textAlignment="textEnd"
+            android:layout_marginBottom="2dp"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eaeaea"></LinearLayout>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="- Supriya Thombre"
+            android:padding="2dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Professor(CT)"
+            android:textAlignment="textEnd"
+            android:layout_marginBottom="2dp"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eaeaea"></LinearLayout>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="- Dr. Kavita Singh"
+            android:padding="2dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HoD CTech."
+            android:textAlignment="textEnd"
+            android:layout_marginBottom="2dp"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eaeaea"></LinearLayout>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- Mrs. S.R. Wankhede"
+            android:layout_marginTop="20dp"
+            android:padding="2dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Library Incharge"
+            android:textAlignment="textEnd"
+            android:layout_marginBottom="2dp"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eaeaea"></LinearLayout>
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

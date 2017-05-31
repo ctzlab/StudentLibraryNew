@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/about_background"
+    android:paddingTop="40dp"
+    android:id="@+id/main"
+    tools:context="studentlibrary.ctz.com.studentlibrary_new.Activity_about_us">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Library"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:maxLines="1"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20sp"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:elevation="1dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/new_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="© 2017 ctz.com"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:textColor="#FFF"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_credits"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:shadowColor="#eaeaea"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:textColor="#0000FF"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_dev"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:shadowColor="#eaeaea"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:textColor="#0000FF"
+        android:textSize="18sp"/>
+
+</LinearLayout>
